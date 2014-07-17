@@ -1,0 +1,21 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            GitPeng
+tagline:          'Peng blog'
+description:      'Peng blog'
+url:              http://gitpeng.github.io
+baseurl:          '/'
+paginate:         5
+
+author:
+  name:           'Peng Guo'
+  url:            https://twitter.com/guoleii
+
+# Custom vars
+version:          0.0.1
