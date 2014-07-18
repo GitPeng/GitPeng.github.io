@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reading List 2014-07-17
+title: Reading List 2014-07-18
 ---
 
 * [Custom Threading Operator in Swift](http://ijoshsmith.com/2014/07/05/custom-threading-operator-in-swift/)
