@@ -6,16 +6,16 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            GitPeng
-tagline:          'Peng blog'
-description:      'Peng blog'
-url:              http://gitpeng.github.io
+title:            NilStack
+tagline:          ''
+description:      ''
+url:              http://nilstack.github.io
 baseurl:          '/'
 paginate:         5
 
 author:
   name:           'Peng Guo'
-  url:            https://twitter.com/guoleii
+  url:            https://twitter.com/nilstack
 
 # Custom vars
 version:          0.0.1
