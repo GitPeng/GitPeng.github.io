@@ -29,6 +29,12 @@ Then please add a watch target to the containing app. Xcode will generate relate
 
 ![image](../public/image/add_watch_target.png)
 
+If you want to include a glance scene or notification scene, please select in the next step.
+
+![image](../public/image/check_glance_and_notification.png)
+
+
+
 
 
 
