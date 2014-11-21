@@ -20,8 +20,8 @@ As the diagram shows, there are three parts for a runnable watch app: containing
 
 Let's start with a simple single view app with Xcode project because there is no content in the containing app.
 
-
 ![image](../public/image/create_new_project.png)
+
 
 ### add the watch target
 
