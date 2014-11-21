@@ -37,12 +37,76 @@ The auto generated codes include WatchKit App and Watch  Extension. There are on
 
 ![image](http://nilstack.github.io/public/image/auto_generated_codes.png)
 
+
 ### add UI components
 
+Please open Interface.storyboard in Watch App, then drag and drop a label and a button to the Interface Controller Scene.
+
+![image](http://nilstack.github.io/public/image/add_ui_components.png)
+
+### add code logic
+
+Please open InterfaceController.m, then add these codes to it.
+
+    #import "InterfaceController.h"
 
 
+	@interface InterfaceController()
+	@property (weak, nonatomic) IBOutlet WKInterfaceLabel *label;
+	@property (weak, nonatomic) IBOutlet WKInterfaceButton *btn;
+	
+	@end
+	
+	
+	@implementation InterfaceController
+	
+	- (instancetype)initWithContext:(id)context {
+	    self = [super initWithContext:context];
+	    if (self){
+	        // Initialize variables here.
+	        // Configure interface objects here.
+	        NSLog(@"%@ initWithContext", self);
+	        
+	    }
+	    return self;
+	}
+	- (IBAction)changeLabelTextColor {
+	    [self.label setTextColor:[UIColor redColor]];
+	
+	}
+	
+	- (void)willActivate {
+	    // This method is called when watch view controller is about to be visible to user
+	    NSLog(@"%@ will activate", self);
+	}
+	
+	- (void)didDeactivate {
+	    // This method is called when watch view controller is no longer visible
+	    NSLog(@"%@ did deactivate", self);
+	}
+	
+	@end
 
 
+Link the IBOutlet and IBAction to the storyboard. If you are not clear with it, please refer to the storyboard document.
+
+### build and run
+
+Select the scheme of watch app and run it.
+
+![image](http://nilstack.github.io/public/image/select_scheme.png)
+
+select Hardware->External Displays -> Apple Watch XXmm to  show the watch simlator.
+
+![image](http://nilstack.github.io/public/image/watch_sim_before.png)
+
+click the button, the text color will be changed to red.
+
+![image](http://nilstack.github.io/public/image/watch_sim_after.png)
+
+Hello iWatch!
+
+You can get the complete project from [Github](https://github.com/NilStack/FirstWatch).
 
 
 
