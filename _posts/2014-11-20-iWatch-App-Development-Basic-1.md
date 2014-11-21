@@ -12,7 +12,7 @@ Let's start the new journey.
 
 Currently, you can't develop native app for iWatch.
 
-![image](../public/image/target_structure_2x.png)
+![image](http://nilstack.github.io/public/image/target_structure_2x.png)
 
 As the diagram shows, there are three parts for a runnable watch app: containing iOS app, watchkit extension and watch app. They are all bundled in an iOS app.
 
@@ -20,18 +20,20 @@ As the diagram shows, there are three parts for a runnable watch app: containing
 
 Let's start with a simple single view app with Xcode project because there is no content in the containing app.
 
-![image](../public/image/create_new_project.png)
+![image](http://nilstack.github.io/public/image/create_new_project.png)
 
 
 ### add the watch target
 
 Then please add a watch target to the containing app. Xcode will generate related code and resource automatically.
 
-![image](../public/image/add_watch_target.png)
+![image](http://nilstack.github.io/public/image/add_watch_target.png)
 
 If you want to include a glance scene or notification scene, please select in the next step.
 
-![image](../public/image/check_glance_and_notification.png)
+![image](http://nilstack.github.io/public/image/check_glance_and_notification.png)
+
+
 
 
 
