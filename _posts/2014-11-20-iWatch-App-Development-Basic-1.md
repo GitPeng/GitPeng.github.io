@@ -33,8 +33,11 @@ If you want to include a glance scene or notification scene, please select in th
 
 ![image](http://nilstack.github.io/public/image/check_glance_and_notification.png)
 
+The auto generated codes include WatchKit App and Watch  Extension. There are only UI related resources like storyboard in the watch app. Your codes are all in the watchkit extension which will run in your iOS device.
 
+![image](http://nilstack.github.io/public/image/auto_generated_codes.png)
 
+### add UI components
 
 
 
