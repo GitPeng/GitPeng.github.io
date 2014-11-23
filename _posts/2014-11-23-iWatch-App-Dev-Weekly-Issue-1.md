@@ -6,7 +6,7 @@ title: Watch App Dev Weekly Issue 1
 This is the first week since Apple released WatchKit. Despite the offical resources, the community has 
 Here is a summary of WatchKit's first week.
 
-### Official Resources
+## Official Resources
 
 ---
 
@@ -18,7 +18,7 @@ sample code and design reources. I strongly recommend the getting started video 
 [**Apple.com**](https://developer.apple.com/watchkit/) 
 
 
-### Dev
+## Dev
 
 ---
 
@@ -43,7 +43,7 @@ If you want to dive into the WatchKit step by step with clear explanations and c
 [**natashatherobot.com**](http://natashatherobot.com/)
 
 
-### Design
+## Design
 
 ---
 
@@ -56,7 +56,7 @@ This is a presentation for Android wear which greatly helps me understand the wa
 <script async class="speakerdeck-embed" data-id="d836c8104e1b0132b413767ece2f179e" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 
-### From the author
+## From the author
 
 This is the first issue of Watch App Dev Weekly. Welcome any suggestion and recommendation.
 
