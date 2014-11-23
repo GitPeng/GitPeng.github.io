@@ -12,7 +12,7 @@ Here is a summary of WatchKit's first week.
 
 #### [WatchKit Dev Page](https://developer.apple.com/watchkit/)
 
-With the WatchKit SDK, Apple set up a specific develoment page. You can find links of programming guide, reference, 
+For the WatchKit SDK, Apple set up a specific develoment page. You can find links of programming guide, reference, 
 sample code and design reources. I strongly recommend the getting started video and the Lister sample project.
 
 [**Apple.com**](https://developer.apple.com/watchkit/) 
