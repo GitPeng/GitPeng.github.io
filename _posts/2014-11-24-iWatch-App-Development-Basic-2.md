@@ -43,9 +43,18 @@ Please drag and drop one interface controller to another and select next page in
 
 <iframe width="420" height="315" src="//www.youtube.com/embed/tH85tUTLCSE" frameborder="0" allowfullscreen></iframe>
  
-You can get the complete project from [Github](https://github.com/NilStack/FirstWatch).
+You can get the complete project from [Github](https://github.com/NilStack/pagewatch).
 
 ---
+
+## From the author
+
+--
+
+This is second part of iWatch App Development Basic. Please share it.
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="NilStack" data-size="large" data-hashtags="WatchKit">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 ## Subscribe
 
