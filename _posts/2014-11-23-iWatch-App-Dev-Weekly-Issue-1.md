@@ -69,6 +69,8 @@ Please help to share this issue.
 
 ## Subscribe
 
+---
+
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
@@ -80,10 +82,8 @@ Please help to share this issue.
 <form action="//github.us9.list-manage.com/subscribe/post?u=ff5dae3ddc1f4cead9b9d7277&amp;id=868c3a1b23" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
 	<h2>Welcome subscribe to Watch App Dev Weekly mailing list</h2>
-<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
-	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
-</label>
+	<label for="mce-EMAIL">Email Address </label>
 	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 </div>
 	<div id="mce-responses" class="clear">
