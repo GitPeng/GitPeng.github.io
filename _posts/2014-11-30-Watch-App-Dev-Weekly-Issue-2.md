@@ -28,7 +28,7 @@ title: Watch App Dev Weekly Issue 2
 All things are going on from the release of WatchKit. The community is going beyond basic tutorials and sample codes. Tools are emerging. It's time to build real watch app even the device is not here until early next year. The main points in this issue are animation, data sharing  and complete app examples.
 
 ## Articles and Tutorial
----
+
 #### [WatchKit: Let’s Animate!](http://natashatherobot.com/watchkit-animate/)
 
 Natasha introduced how to make animation with WatchKit even it doesn't support UIKit and Core Animation now.
@@ -48,7 +48,7 @@ The author lead you to build a complete watch app not just sdk examples.
 Ray Wenderlich's brief summary on WatchKit related. I like the sketches.
 
 ## Code
----
+
 #### [WristComms](https://github.com/jblocksom/WristComms)
 
 *"WatchKit extension / host app communications example. This uses app groups and a user defaults suite for the host app and extension to access the same data store."
@@ -59,14 +59,14 @@ Ray Wenderlich's brief summary on WatchKit related. I like the sketches.
 A complete watch app example to make a caculator in Apple Watch.
 
 ## Tools
----
+
 #### [Flipbook](https://github.com/frosty/Flipbook) 
 
 Flipbook is a tool in Swift to help you generate sequence images to make animations in watch app with WatchKit. 
 
 
 ## Events
----
+
 #### [Hackathon.Watch](http://www.hackathon.watch/live)
 
 The world's first hackaton in watch development. You can find many ideas and presentations in this live page.
@@ -80,7 +80,6 @@ Please help to share this issue.
 
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
----
 
 © 2014 Watch App Dev Weekly | [Peng](https://twitter.com/NilStack) 
 <a href="https://twitter.com/NilStack" class="twitter-follow-button" data-show-count="false">Follow @NilStack</a>
