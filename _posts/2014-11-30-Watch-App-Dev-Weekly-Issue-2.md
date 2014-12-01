@@ -6,7 +6,7 @@ title: Watch App Dev Weekly Issue 2
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-	#mc_embed_signup{background:#e3f2fd; clear:left; font:14px Helvetica,Arial,sans-serif; width:100px;}
+	#mc_embed_signup{background:#e3f2fd; clear:left; font:14px Helvetica,Arial,sans-serif; }
 </style>
 <div id="mc_embed_signup">
 <form action="//github.us9.list-manage.com/subscribe/post?u=ff5dae3ddc1f4cead9b9d7277&amp;id=868c3a1b23" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -14,7 +14,7 @@ title: Watch App Dev Weekly Issue 2
 	<h4>Subscribe Watch App Dev Weekly </h4>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address </label>
-	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="width=150px">
 </div>
 	<div id="mce-responses" class="clear">
 		<div class="response" id="mce-error-response" style="display:none"></div>
