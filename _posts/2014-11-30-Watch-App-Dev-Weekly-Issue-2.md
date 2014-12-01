@@ -6,7 +6,7 @@ title: Watch App Dev Weekly Issue 2
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:300px;}
+	#mc_embed_signup{background:#e3f2fd; clear:left; font:14px Helvetica,Arial,sans-serif;  width:300px;}
 	
 </style>
 <div id="mc_embed_signup">
