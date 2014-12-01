@@ -14,7 +14,7 @@ title: Watch App Dev Weekly Issue 2
 	<h4>Subscribe Watch App Dev Weekly </h4>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address </label>
-	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="width=150px">
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" style="width:150px">
 </div>
 	<div id="mce-responses" class="clear">
 		<div class="response" id="mce-error-response" style="display:none"></div>
