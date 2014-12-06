@@ -75,7 +75,7 @@ Select the Glance target you named in the menu and run.
  
   ![image](http://nilstack.github.io/public/image/glance_weather.png)
 
-You can get the complete project from [Github](https://github.com/NilStack/HierarchicalWatch).
+You can get the complete project from [Github](https://github.com/NilStack/GlanceWatch).
 
 ---
 
