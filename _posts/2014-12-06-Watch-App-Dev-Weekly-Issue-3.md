@@ -40,6 +40,8 @@ After these days' research, the community is going deeply and begin to summarize
 
 #### [WatchOS-Headers](https://github.com/nickfrey/WatchOS-Headers)
 
+#### [WatchkitCurrency](https://github.com/johnno1962/WatchkitCurrency)
+
 ## Design
 
 #### [Comparing the Android Wear and Apple Watch UI Guidelines](http://thoughtwax.com/2014/11/guideline-watch/)
