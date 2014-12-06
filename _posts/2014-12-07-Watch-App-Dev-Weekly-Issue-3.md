@@ -60,7 +60,7 @@ Former Android Wear desinger talked on commonsense and difference between Androi
 
 ### [Convenience — Apple Watch's killer feature](http://www.imore.com/convenience-apple-watchs-killer-feature)
 
-Highly recommded article to analyze how iWatch is going to win as wearable device.
+Highly recommended article to analyze how iWatch is going to win as wearable device.
 
 ## From the author
 
