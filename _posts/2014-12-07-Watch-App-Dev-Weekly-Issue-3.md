@@ -30,26 +30,37 @@ After these days' research, the community is going deeply and beginning to summa
 
 #### [WKInterfaceTimer – Add a Countdown to a Swift WatchKit App](http://www.codingexplorer.com/wkinterfacetimer-add-countdown-swift-watchkit-app/)
 
+The timer is a classic use case for a watch. Follow this tutorial to build a timer step by step.
+
 #### [Limitations of Dates and Timers on WatchKit](http://conradstoll.com/blog/2014/11/18/limitations-of-dates-and-timers-on-watchkit)
 
 #### [Apple Watch In A Nutshell](http://www.toptal.com/ios/apple-watch-in-a-nutshell)
 
-#### [a day with Apple Watch](http://furbo.org/2014/11/20/a-day-with-apple-watch/)
+A summary for current Apple WatchKit in different views.
+
 
 ## Code
 
 #### [WatchOS-Headers](https://github.com/nickfrey/WatchOS-Headers)
 
+"Private headers of known Apple Watch/WatchKit code"
+
 #### [WatchkitCurrency](https://github.com/johnno1962/WatchkitCurrency)
+
+"Swift Currency Convertor for iWatch with flexible interface"
 
 ## Design
 
 #### [Comparing the Android Wear and Apple Watch UI Guidelines](http://thoughtwax.com/2014/11/guideline-watch/)
 
+Former Android Wear desinger talked on commonsense and difference between Android wear and iWatch in designer's view.
+
 
 ## Product and Market
 
 ### [Convenience — Apple Watch's killer feature](http://www.imore.com/convenience-apple-watchs-killer-feature)
+
+Highly recommded article to analyze how iWatch is going to win as wearable device.
 
 ## From the author
 
