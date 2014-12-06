@@ -24,13 +24,13 @@ title: Watch App Dev Weekly Issue 3
 
 ---
 
-After these days' research, the community is going deeply and begin to summarize what WatchKit can give us currently and what it will be in future. So summary, comparion and even some reverse engineering are the main points in this issue.
+After these days' research, the community is going deeply and beginning to summarize what WatchKit can give us currently and what it will be in the future. So summary, comparion and even some reverse engineering are the main points in this issue.
 
 ## Articles and Tutorial
 
-#### [Limitations of Dates and Timers on WatchKit](http://conradstoll.com/blog/2014/11/18/limitations-of-dates-and-timers-on-watchkit)
-
 #### [WKInterfaceTimer – Add a Countdown to a Swift WatchKit App](http://www.codingexplorer.com/wkinterfacetimer-add-countdown-swift-watchkit-app/)
+
+#### [Limitations of Dates and Timers on WatchKit](http://conradstoll.com/blog/2014/11/18/limitations-of-dates-and-timers-on-watchkit)
 
 #### [Apple Watch In A Nutshell](http://www.toptal.com/ios/apple-watch-in-a-nutshell)
 
