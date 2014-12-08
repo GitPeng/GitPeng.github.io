@@ -11,7 +11,7 @@ tagline:          ''
 description:      ''
 url:              http://nilstack.github.io
 baseurl:          '/'
-paginate:         5
+paginate:         3
 
 author:
   name:           'Peng Guo'
