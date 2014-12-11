@@ -2,7 +2,6 @@
 
 layout: post
 title: Communication With Containing App with openParentApplication:reply:
-
 ---
 
 <!-- Begin MailChimp Signup Form -->
