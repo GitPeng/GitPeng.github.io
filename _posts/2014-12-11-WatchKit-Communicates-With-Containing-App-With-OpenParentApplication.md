@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: Communication With Containing App with openParentApplication
+title: WatchKit communicates With Containing App with openParentApplication
 ---
 
 <!-- Begin MailChimp Signup Form -->
