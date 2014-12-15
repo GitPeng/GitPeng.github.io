@@ -3,28 +3,6 @@ layout: post
 title: iWatch App Development Basic 4 Glance
 ---
 
----
-<!-- Begin MailChimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-	#mc_embed_signup{background:#bbdefb; clear:left; font:18px Helvetica,Arial,sans-serif;  width:300px;}
-	
-</style>
-<div id="mc_embed_signup">
-<form action="//github.us9.list-manage.com/subscribe/post?u=ff5dae3ddc1f4cead9b9d7277&amp;id=868c3a1b23" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-	<label for="mce-EMAIL"><h3>Subscribe to Watch App Dev Weekly</h3></label>
-	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-    <div style="position: absolute; left: -5000px;"><input type="text" name="b_ff5dae3ddc1f4cead9b9d7277_868c3a1b23" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
-</form>
-</div>
-
-<!--End mc_embed_signup-->
-
----
-
 One of the roles iWatch plays is the viewport for information from iPhone. Glance is the direct proof of this role. Here Glance means glance. So it's quick, not detailed and not interactive. The first rule is to focus on the most important information.  
 
 Swiping up, paging through and tapping are the procedure users access Glance. The only action you can respond is the last one. When users tap the Glance, your app will be launched. You should respond with this context.
