@@ -13,8 +13,9 @@ title: Home
     </h1>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content | strip_html | truncatewords: 100 }}
+    <section class="post-excerpt" itemprop="description">
+              <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+     </section>
   </div>
   {% endfor %}
 </div>
