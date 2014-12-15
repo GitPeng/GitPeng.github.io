@@ -11,11 +11,11 @@ tagline:          ''
 description:      ''
 url:              http://nilstack.github.io
 baseurl:          '/'
-paginate:         3
+paginate:         5
 
 author:
-  name:           'Peng Guo'
-  url:            https://twitter.com/nilstack
+name:           'Peng Guo'
+url:            https://twitter.com/nilstack
 
 # Custom vars
 version:          0.0.1
