@@ -8,6 +8,8 @@ layout: default
   {{ content }}
 </div>
 
+{% include subscribeheader.html %}
+
 <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
@@ -23,7 +25,5 @@ layout: default
     {% endfor %}
   </ul>
 </div>
-
-{% include subscribeheader.html %}
 
 {% include disqus.html %}
