@@ -41,6 +41,9 @@ Google released Watch Face API to give developer more to create their own "promi
 
 #### [Smartwatch to overtake fitness device in 2018 says Juniper](http://www.gomonews.com/smartwatch-to-overtake-fitness-device-in-2018-says-juniper/)
 
+
+### Note: All the contents and new coming posts are moving to [http://develop.watch](http://develop.watch). Thanks for your support.
+
 ## From the author
 
 This is the fourth issue of Watch App Dev Weekly. Welcome any suggestion and recommendation.

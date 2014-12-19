@@ -49,6 +49,8 @@ Flipbook is a tool in Swift to help you generate sequence images to make animati
 
 The world's first hackaton in watch development. You can find many ideas and presentations in this live page.
 
+### Note: All the contents and new coming posts are moving to [http://develop.watch](http://develop.watch). Thanks for your support.
+
 ## From the author
 
 This is the second issue of Watch App Dev Weekly. Welcome any suggestion and recommendation.

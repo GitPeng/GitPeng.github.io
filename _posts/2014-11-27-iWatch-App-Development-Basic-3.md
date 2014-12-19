@@ -105,6 +105,8 @@ to set the image source.
 
 You can get the complete project from [Github](https://github.com/NilStack/HierarchicalWatch).
 
+### Note: All the contents and new coming posts are moving to [http://develop.watch](http://develop.watch). Thanks for your support.
+
 ---
 
 ## From the author

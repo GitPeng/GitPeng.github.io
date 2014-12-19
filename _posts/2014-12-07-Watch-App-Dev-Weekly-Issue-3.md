@@ -41,6 +41,8 @@ Former Android Wear desinger talked on commonsense and difference between Androi
 
 Highly recommended article to analyze how iWatch is going to win as wearable device.
 
+### Note: All the contents and new coming posts are moving to [http://develop.watch](http://develop.watch). Thanks for your support.
+
 ## From the author
 
 This is the third issue of Watch App Dev Weekly. Welcome any suggestion and recommendation.

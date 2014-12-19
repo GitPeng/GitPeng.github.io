@@ -56,6 +56,8 @@ This is a presentation for Android wear which greatly helps me understand the wa
 <script async class="speakerdeck-embed" data-id="d836c8104e1b0132b413767ece2f179e" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 
+### Note: All the contents and new coming posts are moving to [http://develop.watch](http://develop.watch). Thanks for your support.
+
 ## From the author
 
 This is the first issue of Watch App Dev Weekly. Welcome any suggestion and recommendation.
