@@ -80,7 +80,7 @@ Here is the recording for the example.
 You can download the code from [Github](https://github.com/NilStack/OpenParentAppExample).
 
 
-### Note: All the contents and new coming posts are moving to [http://develop.watch](http://develop.watch). Thanks for your support.
+# Note: All the contents and new coming posts are moving to [http://develop.watch](http://develop.watch). Thanks for your support.
 
 ---
 

@@ -55,7 +55,7 @@ Select the Glance target you named in the menu and run.
 
 You can get the complete project from [Github](https://github.com/NilStack/GlanceWatch).
 
-### Note: All the contents and new coming posts are moving to [http://develop.watch](http://develop.watch). Thanks for your support.
+# Note: All the contents and new coming posts are moving to [http://develop.watch](http://develop.watch). Thanks for your support.
 
 ---
 

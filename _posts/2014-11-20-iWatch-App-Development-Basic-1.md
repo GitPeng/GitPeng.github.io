@@ -108,7 +108,7 @@ Hello iWatch!
 
 You can get the complete project from [Github](https://github.com/NilStack/FirstWatch).
 
-### Note: All the contents and new coming posts are moving to [http://develop.watch](http://develop.watch). Thanks for your support.
+# Note: All the contents and new coming posts are moving to [http://develop.watch](http://develop.watch). Thanks for your support.
 
 
 

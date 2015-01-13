@@ -45,7 +45,7 @@ Please drag and drop one interface controller to another and select next page in
  
 You can get the complete project from [Github](https://github.com/NilStack/pagewatch).
 
-### Note: All the contents and new coming posts are moving to [http://develop.watch](http://develop.watch). Thanks for your support.
+# Note: All the contents and new coming posts are moving to [http://develop.watch](http://develop.watch). Thanks for your support.
 
 ---
 
