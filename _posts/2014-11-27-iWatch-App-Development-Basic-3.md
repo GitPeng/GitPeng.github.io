@@ -3,6 +3,8 @@ layout: post
 title: iWatch App Development Basic 3
 ---
 
+# Note: All the contents and new coming posts are moving to [http://develop.watch](http://develop.watch). Thanks for your support.
+
 In the previous blog, I introduced page-based navigation in WatchKit. Now let's see the hierarchy one. As the experience from iOS app, table view is the best example to present hierarchical content. So i will also introduce table in WatchKit. 
 
 Let's get started.

@@ -3,6 +3,8 @@ layout: post
 title: Watch App Dev Weekly Issue 3
 ---
 
+# Note: All the contents and new coming posts are moving to [http://develop.watch](http://develop.watch). Thanks for your support.
+
 After these days' research, the community is going deeply and beginning to summarize what WatchKit can give us currently and what it will be in the future. So summary, comparion and even some reverse engineering are the main points in this issue.
 
 ## Articles and Tutorial

@@ -2,6 +2,7 @@
 layout: post
 title: iWatch App Development Basic 1
 ---
+# Note: All the contents and new coming posts are moving to [http://develop.watch](http://develop.watch). Thanks for your support.
 
 Watchkit was released finally.
 

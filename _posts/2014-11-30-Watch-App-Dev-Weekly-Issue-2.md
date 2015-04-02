@@ -3,6 +3,8 @@ layout: post
 title: Watch App Dev Weekly Issue 2
 ---
 
+# Note: All the contents and new coming posts are moving to [http://develop.watch](http://develop.watch). Thanks for your support.
+
 All things are going on from the release of WatchKit. The community is going beyond basic tutorials and sample codes. Tools are emerging. It's time to build real watch app even the device is not here until early next year. The main points in this issue are animation, data sharing  and complete app examples.
 
 ## Articles and Tutorial

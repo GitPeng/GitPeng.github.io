@@ -2,6 +2,8 @@
 layout: post
 title: Watch App Dev Weekly Issue 4
 ---
+
+# Note: All the contents and new coming posts are moving to [http://develop.watch](http://develop.watch). Thanks for your support.
 	
 WatchKit is evolving. The biggest update in this week was iOS 8.2 beta 2. The pair of  openParentApplication:reply: and application:handleWatchKitExtensionRequest:reply:  builds up the bridge between WatchKit and its containing app. Here is my [blog](http://nilstack.github.io/2014/12/11/WatchKit-Communicates-With-Containing-App-With-OpenParentApplication/) and example [code](https://github.com/NilStack/OpenParentAppExample) to show how to use it.
 

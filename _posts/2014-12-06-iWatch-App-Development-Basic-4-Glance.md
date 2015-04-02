@@ -3,6 +3,8 @@ layout: post
 title: iWatch App Development Basic 4 Glance
 ---
 
+# Note: All the contents and new coming posts are moving to [http://develop.watch](http://develop.watch). Thanks for your support.
+
 One of the roles iWatch plays is the viewport for information from iPhone. Glance is the direct proof of this role. Here Glance means glance. So it's quick, not detailed and not interactive. The first rule is to focus on the most important information.  
 
 Swiping up, paging through and tapping are the procedure users access Glance. The only action you can respond is the last one. When users tap the Glance, your app will be launched. You should respond with this context.

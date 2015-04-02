@@ -3,6 +3,8 @@ layout: post
 title: Watch App Dev Weekly Issue 1
 ---
 
+# Note: All the contents and new coming posts are moving to [http://develop.watch](http://develop.watch). Thanks for your support.
+
 This is the first week since Apple released WatchKit. Despite the offical resources, the community has 
 Here is a summary of WatchKit's first week.
 

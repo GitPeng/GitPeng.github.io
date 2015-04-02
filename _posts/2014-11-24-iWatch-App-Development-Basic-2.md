@@ -2,6 +2,7 @@
 layout: post
 title: iWatch App Development Basic 2
 ---
+# Note: All the contents and new coming posts are moving to [http://develop.watch](http://develop.watch). Thanks for your support.
 
 There're two styles for presenting multiple scenes in WatchKit: hierarchical and page-based. We start with the second one because it's simpler.
 

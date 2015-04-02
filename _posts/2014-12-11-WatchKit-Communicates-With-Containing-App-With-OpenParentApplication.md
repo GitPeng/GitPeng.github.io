@@ -4,6 +4,8 @@ layout: post
 title: WatchKit communicates With Containing App with openParentApplication
 ---
 
+# Note: All the contents and new coming posts are moving to [http://develop.watch](http://develop.watch). Thanks for your support.
+
 Apple released iOS 8.2 beta 2 and Xcode 6.2 beta 2. The moste important update in WatchKit is these methods to build the bridge between the Watch app and its containing app. On Watch side:
 
     + (BOOL)openParentApplication:(NSDictionary *)userInfo
