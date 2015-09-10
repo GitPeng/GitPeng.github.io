@@ -3,7 +3,7 @@ title: Pragma.TV
 email: guoleii@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Focus on Apple TV app development.
-baseurl: "/blog/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://pragma.tv" # the base hostname & protocol for your site
 twitter_username: NilStack
 github_username:  NilStack
