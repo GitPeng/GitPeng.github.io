@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Client-Server App On Apple TV"
+title:  "Develop Client-Server App On Apple TV"
 date:   2015-09-10 21:32:28
 categories: tutorial
 ---
