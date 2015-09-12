@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Develop Client-Server App for Apple TV"
-date:   2015-09-10 21:32:28
+date:   2015-09-11 21:32:28
 categories: tutorial
 ---
 In iOS, it's not easy for our developers to update something like the UI dynamically. We build new version and have to dive into the tedious review process of Apple app store. So there is hybrid app which leverage the web technical stack and web view component.
