@@ -29,7 +29,7 @@ A simple local server in Node.js or python is also enough for this example. Simp
 
     python -m SimpleHTTPServer [port]
 
-If you get error "App Transport Security has blocked a cleartext HTTP (http://) resource load since it is insecure.". The solution is to set NSAllowsArbitraryLoads of NSAppTransportSecurity to YES in the Info.plist.
+If you get error "App Transport Security has blocked a cleartext HTTP (http://) resource load since it is insecure.". The solution is to set Allow Arbitrary Loads (NSAllowsArbitraryLoads)  of App Transport Security Settings (NSAppTransportSecurity) to YES in the Info.plist.
 
 In the main Javascript file, set up a XMLHttpRequest to get TVML file and push the result to foreground after loading.
 
