@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Develop For watchOS 2 II: New UI Elements - Picker (list)"
+title:  "[watchOS] Develop For watchOS 2 II: New UI Elements - Picker (list)"
 date:   2015-11-24 20:00:00
 categories: tutorial
 ---
