@@ -8,7 +8,7 @@ A new UI elements picker is introduced in WatchKit. Two classes WKInterfacePicke
 
 For different use cases, there are three styles for picker. They are list, stack and sequence. Let's see one by one.
 
-The list style is the simple one. Normally, the UI elements in each WKPickerItem include main titile and accessory image. with turning Digital Crown, the list will scroll vertically. Let's see an example.
+The list style is the simple one. Normally, the UI elements in each WKPickerItem include main title and accessory image. with turning Digital Crown, the list will scroll vertically. Let's see an example.
 
 First, set up iOS app project with a single view and add new target for watchOS application.
 
