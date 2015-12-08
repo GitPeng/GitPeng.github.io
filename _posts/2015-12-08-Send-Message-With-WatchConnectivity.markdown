@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[watchOS] Develop For watchOS 2 VIII : Send Message With WatchConnectivity"
+title:  "[watchOS] Develop For watchOS 2 V : Send Message With WatchConnectivity"
 date:   2015-12-08 20:00:00
 categories: tutorial
 ---
