@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Daily: ObjectMapper And Realm List"
+date:   2016-05-05 20:00:00
+categories: recipe
+---
+[ObjectMapper](https://github.com/Hearst-DD/ObjectMapper) is a popular JSON mapping framework in Swift which can be easily used with Realm.  
+How easily? Here is code snippet from ObjectMapper's page on GitHub.
+   
+    class Model: Object, Mappable {
+        dynamic var name = ""
+        required convenience init?(_ map: Map) {
+            self.init()
+        }
+        func mapping(map: Map) {
+            name <- map["name"]
+        }
+    }
+
+That's all you need to do when y
+
+
