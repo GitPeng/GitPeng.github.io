@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Copyable
 permalink: /copyable/
 ---
 
@@ -16,18 +16,18 @@ You can easily get the history item's source app and device. The screenshot of t
 
 Key Features:
 
-# Simple and effective
+* Simple and effective
 
-# Both main window and status bar popover help you access the history quickly
+* Both main window and status bar popover help you access the history quickly
 
-# Categories and search to help you find the history item quickly
+* Categories and search to help you find the history item quickly
 
-# Preview and edit history items
+* Preview and edit history items
 
-# Customizable two and three columns layouts
+* Customizable two and three columns layouts
 
-# Source information and screenshot to help you find the context when copy happened
+* Source information and screenshot to help you find the context when copy happened
 
-# Customizable shortcuts
+* Customizable shortcuts
 
 If you need help or have questions, please send email to siyuestudio@gmail.com
