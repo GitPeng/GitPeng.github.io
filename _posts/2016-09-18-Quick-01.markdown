@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "Quick 01: Basic"
+date:   2016-09-18 20:00:00
+categories: tutorial
+---
+
+Quick is a popular unit testing framework for Swift and Objective-C. Together with the matcher framework Nimble, it makes unit testing easier than XCTest. In the first tutorial, we will introduce basic knowledges about Quick with examples.
+
+### Installation
+
+We can get the details about installation from the [Installing Quick](https://github.com/Quick/Quick/blob/master/Documentation/en-us/InstallingQuick.md). Using CocoaPods is our favorite and recommendation.
+
+### Add test target for Xcode project
+
+* if you start a new project
+
+ ![Add unit test](https://dl.dropboxusercontent.com/u/87778892/Quick/Basic/QuickBasic01.png)
+
+* if you have a project already
+
+ ![Add unit test target](https://dl.dropboxusercontent.com/u/87778892/Quick/Basic/QuickBasic02.png)
+
+### Structure
+
+A basic Quick testing file is like
+
+<script src="https://gist.github.com/NilStack/bed1aa592b7ea155090dce176558902e.js"></script>
+
+#### QuickSpec
+
+>  "QuickSpec is a base class all specs written in Quick inherit from."
+>  - From Quick Documentation
+
+QuickSpec is subclass of XCTestCase which makes it found and driven by XCTest's mechanism. We need to  inherit QuickSpec and override the only function spec() where we put all our test case in. We'll explain details in coming articles.
+
+#### beforeEach
+
+Like setUp() in XCTestCase, beforeEach is a closure which will be run before each test. We can put all the preparation codes in it
+
+### afterEach
+
+Like tearDown in XCTestCase, afterEach is a closure which will be run after each test. We can put all the tear down codes in it
+
+we will introduce the core definitions like describe, context and it in next article. 

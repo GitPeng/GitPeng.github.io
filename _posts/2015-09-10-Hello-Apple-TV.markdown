@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello Apple TV!"
 date:   2015-09-10 21:32:28
-categories: jekyll update
+categories: tutorial
 ---
 Apple TV is becoming another platform for our developers while Apple announced tvOS and new generation TV device.
 
