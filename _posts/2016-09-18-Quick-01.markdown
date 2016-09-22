@@ -40,6 +40,13 @@ Like setUp() in XCTestCase, beforeEach is a closure which will be run before eac
 
 ### afterEach
 
-Like tearDown in XCTestCase, afterEach is a closure which will be run after each test. We can put all the tear down codes in it
+Like tearDown in XCTestCase, afterEach is a closure which will be run after each test. We can put all the cleaning codes in it
 
-we will introduce the core definitions like describe, context and it in next article. 
+### It, Context, Describe
+To get a complete view of test in Quick, we will show an sample first.
+
+<script src="https://gist.github.com/NilStack/b3aceda29b09904d67580e2682062228.js"></script>
+
+Before introducing the core definitions, we need to explain Example definition in Quick. Example in Quick is test in XCTest, or test case in software testing. In codes, it is an 'it' function in which are the assertions to verify the behaviors of the our great app. So the 'it' function defines an example.
+
+An 'Example group' is a logical group of examples. It is defined by context or describe. We can use context to test different scenario and group multiple scenarios into a describe.
