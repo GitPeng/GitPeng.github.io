@@ -18,7 +18,6 @@ Then request permission with codes like
 
 <script src="https://gist.github.com/NilStack/07c8459b9a5bb7f4d83f5e8ed3e92257.js"></script>
 
-
 ### Recorded audio
 
 Relatively speaking，recorded audio is easier to handle.
