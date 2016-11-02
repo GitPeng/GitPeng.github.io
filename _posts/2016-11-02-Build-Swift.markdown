@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Swift World: build"
+title:  "Swift World: how to build Swift on macOS"
 date:   2016-11-02 20:00:00
 categories: tutorial
 ---
