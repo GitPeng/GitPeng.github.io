@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Swift World: Equatable, Comparable, and Hashable in Swift Part 1"
+title:  "Swift World: Equatable, Comparable, and Hashable Part 1"
 date:   2017-02-19 20:00:00
 categories: tutorial
 ---
 
 In this series, we will learn three basic protocols: Equatable, Comparable and Hashable. They will be explained with examples from Swift’s codebase and our own.
 
-Let’s see how protocol Equatable is defined in Swift. The following snippet is from [stdlib  of Swift] ( [swift/Equatable.swift at master · apple/swift · GitHub](https://github.com/apple/swift/blob/master/stdlib/public/core/Equatable.swift) ). There is only a function for operator == with two parameters which mean left-hand side and right-hand side value.
+Let’s see how protocol Equatable is defined in Swift. The following snippet is from [stdlib  of Swift](https://github.com/apple/swift/blob/master/stdlib/public/core/Equatable.swift). There is only a function for operator == with two parameters which mean left-hand side and right-hand side value.
 
 ```
 public protocol Equatable {
