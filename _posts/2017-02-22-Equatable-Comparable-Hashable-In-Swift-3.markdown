@@ -5,7 +5,7 @@ date:   2017-02-22 20:00:00
 categories: tutorial
 ---
 
-In previous parts, we covered Equatable and Comparable. This article is the last one of this serial and we will talk about Hashable. The direct purpose to make our custom type hashable is to use it in a Set or Dictionary. But you can find more while you’re using Swift.
+In previous parts, we covered Equatable and Comparable. This article is the last one of this serial and we will talk about Hashable. The direct purpose to make our custom type hashable is to use it in a Set or Dictionary. But you can find more while using Swift.
 
 By convention, the source code of Hashable is shown at first.
 
