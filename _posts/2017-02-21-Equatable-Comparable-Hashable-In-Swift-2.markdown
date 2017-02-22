@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Swift World: Equatable, Comparable, and Hashable Part 2"
+title:  "Swift World: Equatable, Comparable and Hashable Part 2"
 date:   2017-02-21 20:00:00
 categories: tutorial
 ---
