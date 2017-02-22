@@ -100,4 +100,4 @@ let isSupermanTopOne = superman.power > batman.power
 superheroes.sorted()
 ```
 
-In the next article, we will introduce protocol Hashable. 
+In the next article, we will introduce protocol Hashable.
