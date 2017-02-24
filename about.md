@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Peng is an iOS developer who is enthusiastic about new technology. His another work is [develop.watch](http://develop.watch) which focuses on Apple Watch app development.
+Peng is an iOS developer who is enthusiastic about new technology.
 
-Reach him [@NilStack](https://twitter.com/NilStack).
+Reach him guoleii@gmail.com
