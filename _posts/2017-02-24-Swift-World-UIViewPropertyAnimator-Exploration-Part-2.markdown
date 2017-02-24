@@ -17,7 +17,7 @@ propertyAnimator.isReversed = true
 
 Then the running animation is reversed.
 
-! [ReverseAnimation.gif](https://github.com/NilStack/nilstack.github.io/blob/master/resources/ReverseAnimation.gif)
+![ReverseAnimation](https://github.com/NilStack/nilstack.github.io/blob/master/resources/ReverseAnimation.gif)
 
 ### Scrub animation
 
@@ -34,6 +34,6 @@ func sliderValueChanged(_ sender: UISlider) {
 
  The progress of the animation is changed as following.
 
-![ScrubAnimation.gif](https://github.com/NilStack/nilstack.github.io/blob/master/resources/ScrubAnimation.gif)
+![ScrubAnimation](https://github.com/NilStack/nilstack.github.io/blob/master/resources/ScrubAnimation.gif)
 
 The complete codebase can be found [here](https://gist.github.com/NilStack/dee4247b04541762fecc0b93bdc0d251) .  In the next part, we will introduce timing curves which control the animation’s procedure.
