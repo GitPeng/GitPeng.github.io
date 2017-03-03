@@ -113,17 +113,17 @@ Here is example code to use our small cache framework.
 
 ```
 let imageURL = URL(string: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png")!
-        let image = try! UIImage(data: Data(contentsOf: imageURL))
+let image = try! UIImage(data: Data(contentsOf: imageURL))
 
-        let cache = Hoard.sharedCache
-        cache.store(key: "image", object: image!, completion: nil)
-        cache.retrieve(key: "image") { (image: UIImage?) in
-            if let image = image {
-                imageView.image = image
-            } else {
-                print("no image")
-            }
-        }
+let cache = Hoard.sharedCache
+cache.store(key: "image", object: image!, completion: nil)
+cache.retrieve(key: "image") { (image: UIImage?) in
+    if let image = image {
+        imageView.image = image
+    } else {
+        print("no image")
+    }
+}
 ```
 
 You can find the complete codebase at [GitHub - NilStack/Hoard](https://github.com/NilStack/Hoard). Hoard is only demo for this series and not product ready.
