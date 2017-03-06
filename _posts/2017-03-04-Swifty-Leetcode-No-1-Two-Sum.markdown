@@ -7,7 +7,7 @@ categories: tutorial
 
 The only way to learn Swift is practicing. In addition to starting an app or framework,  to solve problems in Swifts is very helpful. So we start this series to  explore solutions for questions in Leetcode.
 
-Today’s question is [Two Sum](https://leetcode.com/problems/two-sum/?tab=Description). You can get details following the link.
+Today’s question is [Two Sum](https://leetcode.com/problems/two-sum/). You can get details following the link.
 
 The first solution is very straitforward to follow the equation `nums[0] + nums[1] = 2 + 7 = 9`.
 

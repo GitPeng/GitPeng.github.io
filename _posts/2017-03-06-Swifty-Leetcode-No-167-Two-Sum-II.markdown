@@ -9,7 +9,7 @@ We have explained Two Sum in [Swifty Leetcode: No. 1 Two Sum](http://pengguo.xyz
 
 In the codes, we define two ‘pointers’ first, the start and the end. The start points to the first element in the array and the end points to the last one. Then in a while loop, if the sum of start and end equals to target, we find the result. If the sum is less than target, the start index will forward one step. On the contrary, the end index will take a step in the opposite direction.
 
-The following figure will make it easier to understand.
+The following figure will make it easier to understand. If the array is [2, 7, 11, 15] and the target is 9.
 
 ![Two Sum II](http://pengguo.xyz/resources/TwoSumII.png)
 
