@@ -26,7 +26,7 @@ Then we need to extend the type we want to cache to conform the protocol.
 
 UIImage+Cache.swift
 
-```
+```swift
 extension UIImage: Cachable {
     public typealias CacheType = UIImage
 
@@ -47,7 +47,7 @@ extension UIImage: Cachable {
 
 Cache protocol defines common interfaces to manage objects in cache. We only define the least requirements for a cache to store, retrieve and remove objects.
 
-```
+```swift
 public protocol Cache {
 
     func store<T: Cachable>(key: String, object: T, completion: (() -> Void)?)
@@ -65,7 +65,7 @@ Memory cache can simply be taken as wrapper for NSCache, it only delegates all j
 
 MemoryCache.swift
 
-```
+```swift
 class MemoryCache: Cache {
     public let cache = NSCache<AnyObject, AnyObject>()
 
@@ -93,7 +93,7 @@ It’s a little complex for disk cache but basically they’re file operations l
 #### Cache Manager
 It controls the complete workflow and coordinate memory cache and disk cache.
 
-```
+```swift
 class Hoard: Cache {
     static let sharedCache = Hoard()
 
@@ -111,7 +111,7 @@ class Hoard: Cache {
 
 Here is example code to use our small cache framework.
 
-```
+```swift
 let imageURL = URL(string: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png")!
 let image = try! UIImage(data: Data(contentsOf: imageURL))
 

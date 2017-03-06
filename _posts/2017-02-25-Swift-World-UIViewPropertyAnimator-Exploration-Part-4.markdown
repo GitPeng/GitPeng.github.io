@@ -9,7 +9,7 @@ In this part, we will introduce Dance which is built upon UIViewPropertyAnimator
 
 In Dance’s document, there is a main example to explain its usage. We quote it here.
 
-```
+```swift
 let circle = UIView()
 ...
 circle.dance.animate(duration: 2.0, curve: .easeInOut) {
@@ -23,7 +23,7 @@ circle.dance.animate(duration: 2.0, curve: .easeInOut) {
 
 The following codes are the same animation with UIViewPropertyAnimator.
 
-```
+```swift
 let animator = UIViewPropertyAnimator(duration: 2.0, curve: .easeInOut) {
     circle.transform = CGAffineTransform(scaleX: 1.5, y: 1.5)
     circle.center = self.view.center
@@ -42,7 +42,7 @@ Let’s get started to see how Dance accomplish this.
 ### UIView extension
 In this extension, Dance defines a computed property with associated object. This property gives every UIView a Dance instance. That‘s where story starts. You will get what happens with `circle.dance`.  
 
-```
+```swift
 @available(iOS 10.0, *)
 extension UIView {
 
@@ -63,7 +63,7 @@ extension UIView {
 ### DanceFactory
 Before going to `circle.dance.animate()`, let’s see DanceFactory first. DanceFactory works as an UIViewPropertyAnimator producer and wrapper.  There’re several createNewAnimator functions with different parameters like UIViewPropertyAnimator’s different initializers. The difference is DanceFactory gives every UIViewPropertyAnimator a tag as key and stores it in a dictionary. Take one of them as example.
 
-```
+```swift
 func createNewAnimator(tag: Int, duration: TimeInterval, timingParameters: UITimingCurveProvider, animations: @escaping (() -> Void)) {
     let newAnimator = UIViewPropertyAnimator(duration: duration, timingParameters: timingParameters)
     newAnimator.addAnimations(animations)
@@ -76,7 +76,7 @@ func createNewAnimator(tag: Int, duration: TimeInterval, timingParameters: UITim
 
  As a wrapper, the factory wraps UIViewPropertyAnimator’s normal functions like startAnimation, pauseAnimation, finishAnimation, etc. It delegate the work to the animator with specific tag it creates in createNewAnimator.
 
-```
+```swift
 func startAnimation(tag: Int) {
     if let animator = animators[tag] {
         animator.startAnimation()
@@ -90,7 +90,7 @@ func startAnimation(tag: Int) {
 
 Although Dance is the core of the framework, it actually delegates most its work to DanceFactory like:
 
-```
+```swift
  @discardableResult public func animate(duration: TimeInterval, curve: UIViewAnimationCurve, _ animation: @escaping (make) -> Void) -> Dance {
         …
     DanceFactory.instance.createNewAnimator(tag: self.tag, duration: duration, curve: curve) {
@@ -102,7 +102,7 @@ Although Dance is the core of the framework, it actually delegates most its work
 
 and
 
-```
+```swift
 @discardableResult public func start() -> Dance {
         DanceFactory.instance.startAnimation(tag: self.tag)
         return dancingView.dance

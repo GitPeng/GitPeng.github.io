@@ -9,7 +9,7 @@ In this serial, we will learn three basic protocols: Equatable, Comparable and H
 
 Let’s see how protocol Equatable is defined in Swift. The following snippet is from [stdlib  of Swift](https://github.com/apple/swift/blob/master/stdlib/public/core/Equatable.swift). There is only a function for operator == with two parameters which mean left-hand side and right-hand side value.
 
-```
+```swift
 public protocol Equatable {
   static func == (lhs: Self, rhs: Self) -> Bool
 }
@@ -17,7 +17,7 @@ public protocol Equatable {
 
 If we want to make a type equatable, we only need to implement the operator. The following is an implementation for UIEdgeInsets from [UIKit in Swift](https://github.com/apple/swift/blob/master/stdlib/public/SDK/UIKit/UIKit.swift) .  If two UIEdgeInsets’ top, left, bottom and right are equal, they’re considered equal.
 
-```
+```swift
 public func == (lhs: UIEdgeInsets, rhs: UIEdgeInsets) -> Bool {
   return lhs.top == rhs.top &&
          lhs.left == rhs.left &&
@@ -28,7 +28,7 @@ public func == (lhs: UIEdgeInsets, rhs: UIEdgeInsets) -> Bool {
 
 Then what if we define our own type like the following? The person type has  three properties: first name, last name and age.
 
-```
+```swift
 struct Superhero {
     let firstName: String
     let lastName: String
@@ -38,7 +38,7 @@ struct Superhero {
 
 According to our own rules, if a person’s first name, last name and age are equal to the other’s, we consider they are equal.
 
-```
+```swift
 extension Superhero {
     static func == (lhs: Superhero, rhs: Superhero) -> Bool {
         return lhs.firstName == rhs.firstName &&
@@ -52,7 +52,7 @@ What’s the advantage to conform to Equatable?  The quote from the comment for 
 
 Before conforming to Equatable,  we need predicate.
 
-```
+```swift
 let superman = Superhero(firstName: "Clark", lastName: "Kent", age: 35)
 let batman = Superhero(firstName: "Bruce", lastName: "Wayne", age: 32)
 
@@ -66,7 +66,7 @@ let isSupermanInSuperheroes = superheroes.contains {
 
 After conforming to Equatable
 
-```
+```swift
 let isSupermanInSuperheroes = superheroes.contains(superman)
 ```
 

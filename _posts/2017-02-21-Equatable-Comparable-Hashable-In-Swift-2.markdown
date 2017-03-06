@@ -10,7 +10,7 @@ In the last article, we introduced protocol Equatable. Today protocol Comparable
 We will follow our procedure to show Comparable’s source code first.
 The following codes are from [Comparable.swift](https://github.com/apple/swift/blob/master/stdlib/public/core/Comparable.swift)
 
-```
+```swift
 public protocol Comparable : Equatable {
     static func < (lhs: Self, rhs: Self) -> Bool
     static func <= (lhs: Self, rhs: Self) -> Bool
@@ -21,19 +21,19 @@ public protocol Comparable : Equatable {
 
 Four relational operators are defined in this protocol, but we only need to implement < in conformance to Comparable. The other three operators has been given default implementations.
 
-```
+```swift
 public func > <T : Comparable>(lhs: T, rhs: T) -> Bool {
   return rhs < lhs
 }
 ```
 
-```
+```swift
 public func <= <T : Comparable>(lhs: T, rhs: T) -> Bool {
   return !(rhs < lhs)
 }
 ```
 
-```
+```swift
 public func >= <T : Comparable>(lhs: T, rhs: T) -> Bool {
   return !(lhs < rhs)
 }
@@ -41,7 +41,7 @@ public func >= <T : Comparable>(lhs: T, rhs: T) -> Bool {
 
 Let’s enhance our Superhero type to give each hero a power value.
 
-```
+```swift
 struct Superhero {
     let firstName: String
     let lastName: String
@@ -52,7 +52,7 @@ struct Superhero {
 
 And update Superman and Batman.
 
-```
+```swift
 let superman = Superhero(firstName: "Clark", lastName: "Kent", age: 35, power: 100)
 let batman = Superhero(firstName: "Bruce", lastName: "Wayne", age: 32, power: 90)
 ```
@@ -61,7 +61,7 @@ Ok, maybe you don’t agree with me and Batman is top one on your list. Never mi
 
 In the world built by me in Swift, superheroes are ordered by their power value.
 
-```
+```swift
 extension Superhero: Comparable {
 
     static func < (lhs: Superhero, rhs: Superhero) -> Bool {
@@ -82,11 +82,11 @@ Then let’s  start Before & After comparison.
 
 Before:
 
-```
+```swift
 let superheroes = [superman, batman]
 ```
 
-```
+```swift
 let isSupermanTopOne = superman.power > batman.power
 
 superheroes.sorted(by: {$0.power < $1.power })
@@ -94,7 +94,7 @@ superheroes.sorted(by: {$0.power < $1.power })
 
 After:
 
-```
+```swift
 let isSupermanTopOne = superman.power > batman.power
 
 superheroes.sorted()

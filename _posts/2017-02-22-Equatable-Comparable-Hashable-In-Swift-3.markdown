@@ -9,7 +9,7 @@ In previous parts, we covered Equatable and Comparable. This article is the last
 
 By convention, the source code of Hashable is shown at first.
 
-```
+```swift
 public protocol Hashable : _Hashable, Equatable {
   var hashValue: Int { get }
 }
@@ -17,7 +17,7 @@ public protocol Hashable : _Hashable, Equatable {
 
 It’s clear we only need to do is providing a hashValue to make our custom type hashable. So how to give the value? In Swift, Bool gives a very simple implement.
 
-```
+```swift
 public var hashValue: Int {
     return self ? 1 : 0
   }
@@ -25,7 +25,7 @@ public var hashValue: Int {
 
  A more common practice is to combine every property’s hash value with the bitwise XOR operator. Let’s see make our Superhero hashable in this way.
 
-```
+```swift
 extension Superhero: Hashable {
     public var hashValue: Int {
         return firstName.hashValue ^ lastName.hashValue ^ age.hashValue ^ power.hashValue
@@ -45,7 +45,7 @@ At last, let’s show before and after as usual.
 
 Before:
 
-```
+```swift
 // Error: Type 'Superhero' does not conform to protocol 'Hashable'
 let superheroesSet: Set<Superhero> = [superman, batman]
 
@@ -54,8 +54,8 @@ let superHeroDict: [Superhero: String]
 ```
 
 After:
-```
 
+```swift
 let superheroes = [superman, batman]
 superheroes[0].firstName // “Clark”
 

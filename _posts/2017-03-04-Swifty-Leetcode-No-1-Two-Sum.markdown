@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Swifty Leetcode: No. 1 Two Sum"
+title:  "Swifty Leetcode: No.1 Two Sum"
 date:   2017-03-03 20:00:00
 categories: tutorial
 ---

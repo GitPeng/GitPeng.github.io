@@ -9,7 +9,7 @@ In this part, we will talk about memory cache and disk cache. The strategy in po
 
 NSCache is often used as memory Cache. For example in Kingfisher,
 
-```
+```swift
 open class ImageCache {
     //Memory
     fileprivate let memoryCache = NSCache<NSString, AnyObject>()
@@ -19,13 +19,13 @@ open class ImageCache {
 
 Write image to memory cache:
 
-```
+```swift
 memoryCache.setObject(image, forKey: computedKey as NSString, cost: image.kf.imageCost)
 ```
 
 Retrieve image from memory cache with key:
 
-```
+```swift
 open func retrieveImageInMemoryCache(forKey key: String, options: KingfisherOptionsInfo? = nil) -> Image? {
 
         let options = options ?? KingfisherEmptyOptionsInfo
@@ -39,13 +39,13 @@ It isn’t difficult to understand the logic. We will go on to disk cache.
 
 Disk cache uses iOS’s file system to store data converted from object. Usually it will create its own directory in app’s caches directory. A file will be created for every object. For example in [Cache](https://github.com/hyperoslo/Cache)
 
-```
+```swift
 let paths = NSSearchPathForDirectoriesInDomains(.cachesDirectory,
       FileManager.SearchPathDomainMask.userDomainMask, true)
 path = "\(paths.first!)/\(DiskStorage.prefix).\(cacheName)"
 ```
 
-```
+```swift
  ...
  try weakSelf.fileManager.createDirectory(atPath: weakSelf.path,
             withIntermediateDirectories: true, attributes: nil)
@@ -57,14 +57,14 @@ weakSelf.fileManager.createFile(atPath: filePath,
 
 In Kingfisher
 
-```
+```swift
 public final class func defaultDiskCachePathClosure(path: String?, cacheName: String) -> String {
         let dstPath = path ?? NSSearchPathForDirectoriesInDomains(.cachesDirectory, .userDomainMask, true).first!
         return (dstPath as NSString).appendingPathComponent(cacheName)
     }
 ```
 
-```
+```swift
 ...
 try self.fileManager.createDirectory(atPath: self.diskCachePath, withIntermediateDirectories: true, attributes: nil)
 ...
@@ -76,7 +76,7 @@ If these IO operations on file system run in main thread, the UI will be stuck b
 
 For example in [Cache](https://github.com/hyperoslo/Cache)
 
-```
+```swift
   /// Queue for write operations
   public fileprivate(set) var writeQueue: DispatchQueue
   /// Queue for read operations

@@ -9,7 +9,7 @@ Apple introduced UIViewPropertyAnimator in last year’s WWDC.  It brings many a
 
 Simply, we categorize the animation APIs into two levels. The higher one is for UIView directly.
 
-```
+```swift
 + (void)animateWithDuration:(NSTimeInterval)duration
                  animations:(void (^)(void))animations
                  completion:(void (^)(BOOL finished))completion;
@@ -17,7 +17,7 @@ Simply, we categorize the animation APIs into two levels. The higher one is for 
 
 Here is an example to change background from white to red. You can copy the codes and paste in Playground.
 
-```
+```swift
 import PlaygroundSupport
 
 let view = UIView(frame: CGRect(x: 0, y: 0, width: 200, height: 200))
@@ -34,7 +34,7 @@ In iOS 7, Apple released UIDynamicAnimator  which brought physics to UIView anim
 
 The API in lower level is Core Animation for CALayer. We can define basic animation, keyframe animation, animation group and transition. The following is code snippet to accomplish the same effect as the previous example.
 
-```
+```swift
 import PlaygroundSupport
 
 let view = UIView(frame: CGRect(x: 0, y: 0, width: 200, height: 200))
@@ -60,7 +60,7 @@ The final effect is like:
 Time goes by and UIViewPropertyAnimator came with iOS 10. We quote the  definition from [the official reference](https://developer.apple.com/reference/uikit/uiviewpropertyanimator) which says UIViewPropertyAnimator “Animates changes to views and allows the dynamic modification of those animations.”
 The first part is easy to understand because animation block for UIView does the same thing to “animate changes to views”. The following code snippet is to accomplish the same effect as the previous examples. The difference is we need to call startAnimation() unlike the previous solutions which start the animation automatically.
 
-```
+```swift
 UIViewPropertyAnimator(duration: 2.0, curve: .easeInOut) {
         view.backgroundColor = UIColor.red
 }.startAnimation()
@@ -72,7 +72,7 @@ What does it mean with “dynamic modification”?  The first point is we get th
 
 The complete codebase can be found [here](https://gist.github.com/NilStack/dee4247b04541762fecc0b93bdc0d251) . Let’s explain the main parts. We built animation to move a red rectangle.
 
-```
+```swift
 let rect = UIView()
 rect.frame = CGRect(x: 0, y: 50, width: 100, height: 100)
 rect.backgroundColor = UIColor.red
@@ -88,19 +88,19 @@ propertyAnimator.addAnimations {
 
 Start it by
 
-```
+```swift
 propertyAnimator.startAnimation()
 ```
 
 Pause it by
 
-```
+```swift
 propertyAnimator.pauseAnimation()
 ```
 
 Stop it by
 
-```
+```swift
 propertyAnimator.stopAnimation(false)
 ```
 

@@ -9,7 +9,7 @@ In the previous part, we talked about data converter to make the object cachable
 
 For example in Kingfisher
 
-```
+```swift
 open class ImageCache {
     //Memory
     fileprivate let memoryCache = NSCache<NSString, AnyObject>()
@@ -22,7 +22,7 @@ open class ImageCache {
 
 There is a little complicated in Cache library but the core idea is same.
 
-```
+```swift
 public final class MemoryStorage: StorageAware {
      ...
      /// Memory cache instance
@@ -31,7 +31,7 @@ public final class MemoryStorage: StorageAware {
 }
 ```
 
-```
+```swift
 public final class DiskStorage: StorageAware {
     ...
     /// Storage root path
@@ -42,7 +42,7 @@ public final class DiskStorage: StorageAware {
 }
 ```
 
-```
+```swift
 public class BasicHybridCache: NSObject {
    ...
   /// Front cache (should be less time and memory consuming)
@@ -61,7 +61,7 @@ Next, we will see the abstract cache with protocol.  Why do we need cache protoc
 
 As a cache, the client will write object to it and read from it when necessary. So in the following code in [Haneke](https://github.com/Haneke/HanekeSwift)
 
-```
+```swift
 public class Cache<T: DataConvertible where T.Result == T, T : DataRepresentable> {
     public func set(value value: T, key: String, formatName: String = HanekeGlobals.Cache.OriginalFormatName, success succeed: ((T) -> ())? = nil)  {
         ...
@@ -74,7 +74,7 @@ public class Cache<T: DataConvertible where T.Result == T, T : DataRepresentable
 
 And in [Cache](https://github.com/hyperoslo/Cache)
 
-```
+```swift
 public class BasicHybridCache: NSObject {
     public func add<T: Cachable>(_ key: String, object: T, expiry: Expiry? = nil, completion: (() -> Void)? = nil) {
         ...

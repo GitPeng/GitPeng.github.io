@@ -12,7 +12,7 @@ Talk is cheap, show me the animation.
 
 And show me the code.
 
-```
+```swift
 UIView.animate(withDuration: 4.0, delay: 0, options: [.curveEaseInOut], animations: {
             redRect.center.x = 300
         }, completion: nil)
@@ -22,7 +22,7 @@ The option .curveEaseInOut shows the timing curve option in the animation.
 
 For CAAnimation, the corresponding property is timingFunction which is a CAMediaTimingFunction. To get same easeInOut effect, the code would be as the following.
 
-```
+```swift
 let animation = CABasicAnimation()
 animation.keyPath = "position.x"
 animation.fromValue = redRect.center.x
@@ -35,7 +35,7 @@ redRect.layer.add(animation, forKey: "EaseInOut")
 
 When it comes to UIViewPropertyAnimator, we can also set a curve simply when creating an instance.
 
-```
+```swift
 let animator = UIViewPropertyAnimator(duration: 4.0, curve: .easeInOut) {
     redRect.center.x = 300
 }
@@ -47,7 +47,7 @@ UIViewProperty also gives other methods to define timing curve.
 
 1. Provide two control point to define cubic Bézier timing curve.
 
-```
+```swift
 let animator = UIViewPropertyAnimator(duration: 4.0, controlPoint1: CGPoint(x: 0.17, y: 0.52), controlPoint2: CGPoint(x: 0.83, y: 0.67)) {
     redRect.center.x = 300
 }
@@ -57,7 +57,7 @@ let animator = UIViewPropertyAnimator(duration: 4.0, controlPoint1: CGPoint(x: 0
 
 2. Provide dampingRatio value to define spring-based timing curve.
 
-```
+```swift
 let animator = UIViewPropertyAnimator(duration: 4.0, dampingRatio: 0.5) {
     redRect.center.x = 300
 }
@@ -67,7 +67,7 @@ let animator = UIViewPropertyAnimator(duration: 4.0, dampingRatio: 0.5) {
 
 3. Provide an UITimingCurveProvider to define the cubic curve
 
-```
+```swift
 let cubicTimingParameters: UITimingCurveProvider = UICubicTimingParameters(controlPoint1: CGPoint(x: 0.0, y: 1.0), controlPoint2: CGPoint(x: 1.0, y: 0.0))
 
 let animator = UIViewPropertyAnimator(duration: 4.0, timingParameters: cubicTimingParameters)
@@ -83,7 +83,7 @@ animator.startAnimation()
 
 4.  Provide an UITimingCurveProvider to define the spring timing
 
-```
+```swift
 let springTimingParameters: UITimingCurveProvider = UISpringTimingParameters(dampingRatio: 0.5,initialVelocity: CGVector(dx:1.0, dy: 0.0))
 
 let animator = UIViewPropertyAnimator(duration: 4.0, timingParameters: springTimingParameters)

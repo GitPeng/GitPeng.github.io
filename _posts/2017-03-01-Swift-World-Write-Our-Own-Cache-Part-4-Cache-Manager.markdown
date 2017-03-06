@@ -11,7 +11,7 @@ Like the ImageCache class in [Kingfisher](https://github.com/onevcat/Kingfisher)
 
 #### Memory cache and disk cache
 
-```
+```swift
 open class ImageCache {
     //Memory Cache
     fileprivate let memoryCache = NSCache<NSString, AnyObject>()
@@ -24,13 +24,14 @@ open class ImageCache {
 
 #### Disk IO operation’s DispatchQueue
 
-```
+```swift
 let ioQueueName = "com.onevcat.Kingfisher.ImageCache.ioQueue.\(name)"
 ioQueue = DispatchQueue(label: ioQueueName)
 ```
 
 #### FileManager to manipulate file system for disk cache
-```
+
+```swift
 fileprivate var fileManager: FileManager!
 ioQueue.sync { fileManager = FileManager() }
 ```
@@ -39,7 +40,7 @@ ioQueue.sync { fileManager = FileManager() }
 
 We use ellipses to simplify the parameter list. First, ImageCache write the image to memoryCache with a key in following codes.
 
-```
+```swift
 // We use ... to simplify the parameter list
 open func store(…) {
     let computedKey = key.computedKey(with: identifier)
@@ -50,7 +51,7 @@ open func store(…) {
 
 Then create new file for the image data in ioQueue.
 
-```
+```swift
 ioQueue.async {
     do {
         try self.fileManager.createDirectory(atPath: self.diskCachePath, withIntermediateDirectories: true, attributes: nil)
@@ -63,7 +64,7 @@ ioQueue.async {
 #### Logic to retrieve
 Util now, the image is cached in memory and disk. Then let’s see the logic to retrieve the image from the cache. The image will be retrieved in memory cache first with NSCache’s `object(forKey key: KeyType) -> ObjectType?` .  If the image is not there, disk cache will be next. Then if it is in disk cache,  the image will be read and stored in memory cache. At last, the image data will be cached in both memory and disk. Next time, it becomes fast to retrieve the image from memory instead of disk.
 
-```
+```swift
 open func retrieveImage(forKey key: String, ...) {
      if let image = self.retrieveImageInMemoryCache(forKey: key, options: options) {
          ...

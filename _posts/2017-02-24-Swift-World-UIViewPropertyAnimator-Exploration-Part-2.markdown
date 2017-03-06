@@ -11,7 +11,7 @@ In part 1, we began to talk about the dynamic characteristic of UIViewPropertyAn
 
 It’s not easy to reverse a running animation with old tools like block-based UIView animation although there is a limited autoreverse option in UIViewAnimationOptions. This option only can be used with the repeat option and only be triggered automatically. UIViewPropertyAnimator gives you the ability to reverse an animation whenever you want by only setting isReverse to true.
 
-```
+```swift
 propertyAnimator.isReversed = true
 ```
 
@@ -23,7 +23,7 @@ Then the running animation is reversed.
 
 Based on the property fractionComplete which means what percentage of the animation has completed, we can change the progress of the animation.  Please pause the animation before change the value. In real world app, we can change the value according to a gesture’s position to make the animation more interactive. To make it easy to demonstrate, we change the value with the changing of slider’s value in our example.
 
-```
+```swift
 func sliderValueChanged(_ sender: UISlider) {
         if propertyAnimator.isRunning {
             propertyAnimator.pauseAnimation()
