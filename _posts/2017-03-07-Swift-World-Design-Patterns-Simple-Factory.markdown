@@ -5,7 +5,7 @@ date:   2017-03-07 20:00:00
 categories: tutorial
 ---
 
-If we want to learn a programming language, we need to live with it. It means to eat, drink, even breathe with it. It is very necessary to use Swift as much as possible. Today, we will start talking about design patterns in Swift. In addition to simple explanation, we also try to give figures, samples, use cases, etc. Let’s get started.
+If we want to learn a programming language, we need to live with it. It means to use Swift as much as possible. Today, we will start talking about design patterns in Swift. In addition to simple explanation, we also try to give figures, samples, use cases, etc. Let’s get started.
 
 The first pattern is simple factory. Simply speaking, we build a factory to produce different objects which belong to the same type. As in the following figure and code, we have different types of cars, sedan, SUV, and maybe van. They all conform to protocol Car. It means the protocol defines common interface for cars. The specific car type implement their own logic.
 
