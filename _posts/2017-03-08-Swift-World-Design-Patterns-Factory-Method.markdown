@@ -11,7 +11,7 @@ Do you remember the Simple Factory Pattern we talked about in last article?
 
 As the figure tells us, we build a factory to produce different types of cars. But what if the list becomes too long. Now, we have truck, sports car, bus, etc. All the cars will be produced in just one factory. It will make the factory stressful. So we will introduce another pattern Factory Method to help it.
 
-Since the factory feels stressful to produce so many kinds of car, why not build more factories?  Good idea,  that’s what we will do with Factory Method pattern. We’re going to build a factory for each type to make them  stay focused. These factories has a same interface because they all produce cars.
+Since the factory feels stressful to produce so many kinds of car, why not build more factories?  Good idea,  that’s what we will do with Factory Method pattern. We’re going to build a factory for each type to make them  stay focused. These factories have same interface because they all produce cars.
 
 ![FactoryMethodSmall](http://pengguo.xyz/resources/FactoryMethodSmall.png)
 
