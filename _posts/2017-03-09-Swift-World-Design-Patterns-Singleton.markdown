@@ -14,7 +14,7 @@ let default = NotificationCenter.default
 let standard = UserDefaults.standard
 ```
 
-We will not talk about what singleton is and its advantages. You can find so many resources on the Internet. We want to focus on how to write our own?
+We will not talk about what singleton is and its advantages. You can find so many resources on the Internet. We want to focus on how to write our own.
 
 Do you remember how to do this in the Objective-C world? Here is a template which maybe you’ve ever seen. The  `sharedInstance = [[Car alloc] init];` will only executed once. This is guaranteed by `dispatch_once`.
 
