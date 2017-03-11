@@ -110,9 +110,9 @@ Another use case is to make different themes for our UI. There are many elements
 
 If you want to learn other creational patterns, we list them here.
 
-[Swift World: Design Patterns - Simple Factory](http://pengguo.xyz/tutorial/2017/03/07/Swift-World-Design-Patterns-Simple-Factory.html)
-[Swift World: Design Patterns - Factory Method](http://pengguo.xyz/tutorial/2017/03/08/Swift-World-Design-Patterns-Factory-Method.html)
-[Swift World: Design Patterns - Singleton](http://pengguo.xyz/tutorial/2017/03/09/Swift-World-Design-Patterns-Singleton.html)
-[Swift World: Design Patterns - Builder](http://pengguo.xyz/tutorial/2017/03/10/Swift-World-Design-Patterns-Builder.html)
+*[Swift World: Design Patterns - Simple Factory](http://pengguo.xyz/tutorial/2017/03/07/Swift-World-Design-Patterns-Simple-Factory.html)
+*[Swift World: Design Patterns - Factory Method](http://pengguo.xyz/tutorial/2017/03/08/Swift-World-Design-Patterns-Factory-Method.html)
+*[Swift World: Design Patterns - Singleton](http://pengguo.xyz/tutorial/2017/03/09/Swift-World-Design-Patterns-Singleton.html)
+*[Swift World: Design Patterns - Builder](http://pengguo.xyz/tutorial/2017/03/10/Swift-World-Design-Patterns-Builder.html)
 
 Thanks for your time.
