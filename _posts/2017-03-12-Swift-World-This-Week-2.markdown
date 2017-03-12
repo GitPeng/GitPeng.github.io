@@ -12,7 +12,8 @@ categories: tutorial
   * [Apple starts rejecting apps with “hot code push” features - Hacker News](https://news.ycombinator.com/item?id=13817557)
   * [Apple的警告邮件 · Issue #2875 · alibaba/weex · GitHub](https://github.com/alibaba/weex/issues/2875)
   * [关于苹果警告 «  bang’s blog](http://blog.cnbang.net/internet/3374/) - from JSPatch’s author
-2. [Improving Swift compile times – John Sundell – Medium](https://medium.com/@johnsundell/improving-swift-compile-times-ee1d52fb9bd#.ytxrk1tfa)
+
+2.  [Improving Swift compile times – John Sundell – Medium](https://medium.com/@johnsundell/improving-swift-compile-times-ee1d52fb9bd#.ytxrk1tfa)
 
 3. [GitHub - yukiasai/Nori: Easier to apply code based style guide to storyboard.](https://github.com/yukiasai/Nori)
 
