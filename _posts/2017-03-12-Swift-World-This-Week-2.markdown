@@ -7,11 +7,11 @@ categories: tutorial
 
 1. Hot patching rejection materials summary
 
-[Message from Apple Review… | Apple Developer Forums](https://forums.developer.apple.com/thread/73640)
-[A warning from Apple resolved, not about React Native · Issue #12778 · facebook/react-native · GitHub](https://github.com/facebook/react-native/issues/12778)
-[Apple starts rejecting apps with “hot code push” features | Hacker News](https://news.ycombinator.com/item?id=13817557)
-[Apple的警告邮件 · Issue #2875 · alibaba/weex · GitHub](https://github.com/alibaba/weex/issues/2875)
-[关于苹果警告 «  bang’s blog](http://blog.cnbang.net/internet/3374/) - from JSPatch’s author
+* [Message from Apple Review… | Apple Developer Forums](https://forums.developer.apple.com/thread/73640)
+* [A warning from Apple resolved, not about React Native · Issue #12778 · facebook/react-native · GitHub](https://github.com/facebook/react-native/issues/12778)
+* [Apple starts rejecting apps with “hot code push” features | Hacker News](https://news.ycombinator.com/item?id=13817557)
+* [Apple的警告邮件 · Issue #2875 · alibaba/weex · GitHub](https://github.com/alibaba/weex/issues/2875)
+* [关于苹果警告 «  bang’s blog](http://blog.cnbang.net/internet/3374/) - from JSPatch’s author
 
 2. [Improving Swift compile times – John Sundell – Medium](https://medium.com/@johnsundell/improving-swift-compile-times-ee1d52fb9bd#.ytxrk1tfa)
 
