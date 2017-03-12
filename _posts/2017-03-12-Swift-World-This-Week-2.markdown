@@ -7,7 +7,7 @@ categories: tutorial
 
 1. Hot patching rejection materials summary
 
-* [Message from Apple Review… | Apple Developer Forums](https://forums.developer.apple.com/thread/73640)
+* [Message from Apple Review… - Apple Developer Forums](https://forums.developer.apple.com/thread/73640)
 * [A warning from Apple resolved, not about React Native · Issue #12778 · facebook/react-native · GitHub](https://github.com/facebook/react-native/issues/12778)
 * [Apple starts rejecting apps with “hot code push” features | Hacker News](https://news.ycombinator.com/item?id=13817557)
 * [Apple的警告邮件 · Issue #2875 · alibaba/weex · GitHub](https://github.com/alibaba/weex/issues/2875)
