@@ -9,7 +9,7 @@ We have finished creational patterns and will introduce structural patterns from
 
 The latest adapter example in real world is lightning to 3.5 mm headphone Jack adapter. If we want to reuse old headphone with our new iPhone 7 which uses lightning connector, we need this adapter to connect them.
 
-![HeadphoneAdapter](http://pengguo.xyz/resources/HeadphoneAdapter.png
+![HeadphoneAdapter](http://pengguo.xyz/resources/HeadphoneAdapter.png)
 
 Obviously, the headphone jack adapter is adapter. The old 3.5 mm headphone is adaptee. In the programming world, the adaptee is old class we want to reuse. But its interface is not compatible with new interface. So we need an adapter to help them.
 
