@@ -5,7 +5,7 @@ date:   2017-03-18 20:00:00
 categories: tutorial
 ---
 Flyweight is about sharing. It holds a pool to store objects. The client will reuse existing objects in the pool.
-In previous articles, we have a general interface for car and a specific sedan class as following. Each car
+In previous articles, we have a general interface for car and a specific sedan class as following.
 
 ```swift
 protocol Car {
