@@ -5,7 +5,7 @@ date:   2017-03-19 20:00:00
 categories: tutorial
 ---
 
-1. [Introducing Plank: Immutable model generation for iOS](https://medium.com/@Pinterest_Engineering/introducing-plank-immutable-model-generation-for-ios-4b2f64bda00c#.495ohw31o)
+1. [**Introducing Plank: Immutable model generation for iOS**](https://medium.com/@Pinterest_Engineering/introducing-plank-immutable-model-generation-for-ios-4b2f64bda00c#.495ohw31o)
 
 2. [GitHub - willowtreeapps/spruce-ios: Swift library for choreographing animations on the screen.](https://github.com/willowtreeapps/spruce-ios)
 
