@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  " Swift World: New in Swift 3.1 - Availability by Swift Version"
+title:  "Swift World: New in Swift 3.1 - Availability by Swift Version"
 date:   2017-04-06 20:00:00
 categories: tutorial
 ---
