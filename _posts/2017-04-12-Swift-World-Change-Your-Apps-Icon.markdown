@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Swift World: Change your app’s icon in iOS 10.3"
+title:  "Swift World: Change your app’s icon programmatically in iOS 10.3"
 date:   2017-04-12 20:00:00
 categories: tutorial
 ---
