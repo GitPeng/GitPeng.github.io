@@ -11,7 +11,7 @@ Let’s get started.
 
 ### Prerequisite
 
-Obviously, we need to prepare different icons. There are some requirements. The first one is size. For example, if our app is only for iPhone, the sizes are 60pt@2x and 60pt@3x which means 120*120 and 180*180. And its names should follow the rules like icon1@2x.png and icon1@3x.png. The second one is where we put the alternate icons. Generally, we put our app icon in Assets.xcassets, but not for the alternative icons. We usually put it in a group specifically for alternative icons. The final
+Obviously, we need to prepare different icons. There are some requirements. The first one is size. For example, if our app is only for iPhone, the sizes are 60pt@2x and 60pt@3x which means 120*120 and 180*180. And its names should follow the rules like icon1@2x.png and icon1@3x.png. The second one is where we put the alternate icons. Generally, we put our app icon in Assets.xcassets, but not for the alternative icons. We usually put it in a group specifically for alternative icons.
 
 ![group](http://pengguo.xyz/resources/ChangeIcon1.png)
 
