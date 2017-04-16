@@ -7,8 +7,9 @@ categories: tutorial
 
 1. [What’s New in TestFlight](https://developer.apple.com/news/?id=04112017a) - “TestFlight in iTunes Connect now provides multiple build support, enhanced group capabilities, and improved tester management—making it even easier to test your apps.”
 
-2. [Smooth Scrolling in UITableView and UICollectionView](https://medium.com/capital-one-developers/smooth-scrolling-in-uitableview-and-uicollectionview-a012045d77f)
-[Boost Smooth Scrolling with iOS 10 Pre-Fetching API](https://medium.com/capital-one-developers/boost-smooth-scrolling-with-ios-10-pre-fetching-api-818c25cd9c5d)
+2.
+   * [Smooth Scrolling in UITableView and UICollectionView](https://medium.com/capital-one-developers/smooth-scrolling-in-uitableview-and-uicollectionview-a012045d77f)
+   * [Boost Smooth Scrolling with iOS 10 Pre-Fetching API](https://medium.com/capital-one-developers/boost-smooth-scrolling-with-ios-10-pre-fetching-api-818c25cd9c5d)
 -“some common strategies to achieve smooth scrolling in our iOS mobile apps” and “some very useful changes to UICollectionView in iOS10.”
 
 3. [GitHub - Abedalkareem/LanguageManger-iOS: Language manger used to handle change app language without restart the app](https://github.com/Abedalkareem/LanguageManger-iOS) - “Language manger used to handle change app language without restart the app.”
