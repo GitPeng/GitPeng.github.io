@@ -7,7 +7,7 @@ categories: tutorial
 
 #  Swift World This Week (04.17 - 04.23)
 
-### <span style=“color:red”>Video</span>
+<span style=“color:red”>Video</span>
 
 [iOSCon 2017 - The conference for iOS and Swift Developers](https://skillsmatter.com/conferences/8180-ioscon-2017-the-conference-for-ios-and-swift-developers#skillscasts) - Videos for iOSCon 2017
 
