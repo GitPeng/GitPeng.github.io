@@ -6,4 +6,4 @@ permalink: /about/
 
 Peng is an iOS developer who is enthusiastic about new technology.
 
-Reach him guoleii@gmail.com
+Email: guoleii@gmail.com
