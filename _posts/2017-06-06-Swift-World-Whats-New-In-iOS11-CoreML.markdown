@@ -15,7 +15,7 @@ Here is a simple figure to depict the complete process.
 
 I will not cover the basic knowledge in machine learning. You can find more on the Internet. Model is the most import product from machine learning algorithm and data. Core ML defines its own format for model file. So the models we get with  machine learning frameworks need to be converted. Fortunately, Apple provide [Core ML Tools](https://developer.apple.com/machine-learning/) to help us. This is not in our main topic, so please refer to its document.
 
-There are already different models to apply to different areas like computer vision and language processing. Apple has provided several popular models including Inception v3,  Places205-GoogLeNet, ResNet50 and VGG16. Let’s start an example with model Inception v3 which is popular for detecting objects in image.
+There are already different models to apply to different areas like computer vision and language processing. Apple has provided several popular models including Inception v3,  Places205-GoogLeNet, ResNet50 and VGG16 in its ow n format. Let’s start an example with model Inception v3 which is popular for detecting objects in image.
 
 First please download Inception v3’s model file from https://developer.apple.com/machine-learning/.
 
