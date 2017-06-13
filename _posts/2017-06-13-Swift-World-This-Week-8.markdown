@@ -33,7 +33,7 @@ Good bye, Week of WWDC. So many “What’new” in this week! I collected tutor
 ### Xcode 9
 
 * [Xcode 9 - What's New - WWDC 2017. Refactoring, Wireless Building & More](https://www.youtube.com/watch?v=TTc6mD5G0Lc)
-* [Xcode GitHub Integration | Indie Stack](http://indiestack.com/2017/06/xcode-github-integration/)
+* [Xcode GitHub Integration](http://indiestack.com/2017/06/xcode-github-integration/)
 
 ### App Store
 
