@@ -20,11 +20,11 @@ To use NSLinguisticTagger, we first initialize an instance with tag schemes and 
 
 Feed the tagger with text
 
-https://gist.github.com/NilStack/2e88283a3666ba5d7dd66781be509086
+<script src="https://gist.github.com/NilStack/2e88283a3666ba5d7dd66781be509086.js"></script>
 
 Enumerate each tag and handle  the result
 
-https://gist.github.com/NilStack/d63971b197ec1ffe741c1060e8a0c408
+<script src="https://gist.github.com/NilStack/d63971b197ec1ffe741c1060e8a0c408.js"></script>
 
 Let’s see what NSLinguisticTagger can do with examples. Please copy the code snippets to playground to get the results.
 
@@ -32,30 +32,30 @@ Let’s see what NSLinguisticTagger can do with examples. Please copy the code s
 
 The scheme here is NSLinguisticTagScheme.language. NSLinguisticTagger analyzes the text to get the dominant language.
 
-https://gist.github.com/NilStack/62792bf293429d641d109dea1c563cd8
+<script src="https://gist.github.com/NilStack/62792bf293429d641d109dea1c563cd8.js"></script>
 
 ### Tokenization
 
 With the tag scheme NSLinguisticTagScheme.tokenType, we will get the type of every token. The punctuations and whitespaces are omitted with omitPunctuation and omitWhitespace. Please try different options to see different results.
 
-https://gist.github.com/NilStack/248a716b10b81ec5c429652df3ec63cf
+<script src="https://gist.github.com/NilStack/248a716b10b81ec5c429652df3ec63cf.js"></script>
 
 ### Lemmatization
 
 With tag scheme NSLinguisticTagScheme.lemma, NSLinguisticTagger gives us stem form of each word token.
 
-https://gist.github.com/NilStack/ac0a85940e65094bc6d403d32e6df36b
+<script src="https://gist.github.com/NilStack/ac0a85940e65094bc6d403d32e6df36b.js"></script>
 
 ### NameType
 
 NSLinguisticTagger with the scheme nameType helps us identify whether the token is named entity like personal name and place name.  
 
-https://gist.github.com/NilStack/6c0cea83065e6b735c91f8b7cac89e19
+<script src="https://gist.github.com/NilStack/6c0cea83065e6b735c91f8b7cac89e19.js"></script>
 
 ### LexicalClass
 
 To get each token’s lexical class, we use  NSLinguisticTagScheme. lexicalClass.
 
-https://gist.github.com/NilStack/69ccc0ce6cfc7672cbc267e1037ccfaa
+<script src="https://gist.github.com/NilStack/69ccc0ce6cfc7672cbc267e1037ccfaa.js"></script>
 
 That’s all for NSLinguisticTagger. Thanks for your time.
