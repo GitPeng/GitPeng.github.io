@@ -16,7 +16,7 @@ In codes with NSLinguisticTagger, we use different tag schemes and options to an
 
 To use NSLinguisticTagger, we first initialize an instance with tag schemes and further define the behavior with options for each scheme.
 
-https://gist.github.com/NilStack/6ce3c3c0d35eb7c98ded504d557b9d89
+<script src="https://gist.github.com/NilStack/6ce3c3c0d35eb7c98ded504d557b9d89.js"></script>
 
 Feed the tagger with text
 
